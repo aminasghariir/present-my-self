@@ -3,3 +3,17 @@
     color: black;
     transition: 0.75s;
 }
+body{
+    background-color: #6610f2;
+}
+.my-icon{
+    /* width: 10%; */
+}
+.my-icon-flex{
+    justify-content: flex-end;
+    padding: 0;
+}
+/* .nav-hover:hover{
+    background-color: white;
+    color: black!important ;
+} */
