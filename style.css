@@ -1,0 +1,5 @@
+.mystyle-btn:hover:hover{
+    background-color: white !important;
+    color: black;
+    transition: 0.75s;
+}
