@@ -34,6 +34,12 @@ body{
 ::-webkit-scrollbar-thumb:hover {
     background: #302f2f;
 }
+.skill-percent{
+    background-color: rgb(199, 48, 48);
+    border: 2px solid ;
+    border-radius: 6px;
+    height: 100%;
+}
 /* .nav-hover:hover{
     background-color: white;
     color: black!important ;
