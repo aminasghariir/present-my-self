@@ -45,6 +45,9 @@ ul{
     margin-block-start: 0em;
     margin-block-end: 0em;
 }
+.nav-link{
+    font-weight: bold;
+}
 /* .nav-hover:hover{
     background-color: white;
     color: black!important ;
