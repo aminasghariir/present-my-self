@@ -15,28 +15,40 @@
   <body style="font-family: vazir">
     <div class="row fs-6">
       <!-- <<<<(----------NAV-BAR------------)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-      <div class="container bg-dark rounded-pill col-2 text-center p-2 mt-2">
-        <a
-          class="pe-3 text-decoration-none text-light nav-hover rounded-pill"
-          href="homepage.html"
-          >خانه</a
-        >
-        <a
-          class="pe-3 text-decoration-none text-light nav-hover rounded-pill"
-          href="about-me.html"
-          >درباره من</a
-        >
-        <a
-          class="pe-3 text-decoration-none text-light nav-hover rounded-pill"
-          href="cv.html"
-          >رزومه</a
-        >
-        <a
-          class="text-decoration-none text-light nav-hover rounded-pill"
-          href="contact-WithMe.html"
-          >تماس</a
-        >
-      </div>
+      <nav
+        class="navbar navbar-expand-lg bg-body-tertiary"
+        data-bs-theme="dark"
+      >
+        <div class="container-fluid justify-content-end">
+          <button
+            class="navbar-toggler ms-sm-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end ps-1 flex-column-reverse"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav align-items-end ps-sm-2 flex-column-reverse">
+              <a class="nav-link" href="contact-WithMe.html">تماس با من</a>
+              <a class="nav-link" href="about-me.html">درباره من</a>
+              <a class="nav-link" href="cv.html">رزومه</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="homepage.html"
+                >خانه</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
       <!-- <<<<(----------ENTIRE-MIDDLE-CONTENT------------)<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>> -->
       <div class="row">
         <div class="container col-8 rounded-4 mt-5 d-flex">
