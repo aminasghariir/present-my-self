@@ -40,6 +40,11 @@ body{
     border-radius: 6px;
     height: 100%;
 }
+ul{
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
 /* .nav-hover:hover{
     background-color: white;
     color: black!important ;
