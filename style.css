@@ -48,6 +48,9 @@ ul{
 .nav-link{
     font-weight: bold;
 }
+.carousel-indicators{
+    top: 3rem;
+}
 /* .nav-hover:hover{
     background-color: white;
     color: black!important ;
