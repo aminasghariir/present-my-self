@@ -46,11 +46,11 @@
       </div>
     </nav>
     <!-- <<<<(----------MAIN------------)<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
-    <main class="col-9 m-auto">
+    <main class="col-8 m-auto">
       <div class="row">
         <div
           id="carouselExampleSlidesOnly"
-          class="carousel slide col-8"
+          class="carousel slide col-9"
           data-bs-ride="carousel"
         >
           <div class="carousel-inner rounded-3">
@@ -74,52 +74,103 @@
             </div>
           </div>
         </div>
-        <div
-          id="carouselExampleInterval"
-          class="carousel slide col-4"
-          data-bs-ride="carousel"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active" data-bs-interval="10000">
-              <img
-                src="https://demos.mahdisweb.net/digiland/wp-content/uploads/2017/10/1-300x300.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
+        <div class="card col-3">
+          <div
+            id="carouselExampleDark"
+            class="h-100 carousel carousel-dark slide"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
             </div>
-            <div class="carousel-item" data-bs-interval="2000">
-              <img
-                src="https://demos.mahdisweb.net/digiland/wp-content/uploads/2019/03/cover-300x300.png"
-                class="d-block w-100"
-                alt="..."
-              />
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img
+                  src="https://demos.mahdisweb.net/digiland/wp-content/uploads/2017/10/1-300x300.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div
+                  class="carousel-caption position-absolute bottom-0 d-md-block"
+                >
+                  <p class="fs-6">گوشی blackberi KEYone</p>
+                  <p class="fs-6">2,000,000 تومان</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img
+                  src="https://demos.mahdisweb.net/digiland/wp-content/uploads/2019/03/cover-300x300.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="fs-6">
+                    کاور سیلیکونی مدل SlC مناسب برای گوشی موبایل آیفون 6/6s
+                  </p>
+                  <p class="fs-6">10,000,000 تومان</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="https://demos.mahdisweb.net/digiland/wp-content/uploads/2017/10/11-600x600.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <p class="fs-6">
+                    گوشی موبايل اپل مدل iPhone 8 ظرفيت 64 گيگابايت
+                  </p>
+                  <p class="fs-6">11,000,000 تومان</p>
+                </div>
+              </div>
             </div>
-            <div class="carousel-item">
-              <img
-                src="https://demos.mahdisweb.net/digiland/wp-content/uploads/2017/10/11-600x600.jpg"
-                class="d-block w-100"
-                alt="..."
-              />
-            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleDark"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
           </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleInterval"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+          <!-- <div class="card-body carousel-caption d-md-block">
+            <p class="card-text fs-6 text-danger">گوشی blackberi KEYone</p>
+            <p class="card-text fs-6 text-danger">2,000,000 تومان</p>
+          </div> -->
         </div>
       </div>
     </main>
