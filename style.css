@@ -57,6 +57,9 @@ ul{
 .carousel-control-next-mystyle{
     left: 30%;
 }
+hr {
+    border: 1px dotted #ffffff;
+}
 /* .pos{
     bottom: -30%;
 } */
