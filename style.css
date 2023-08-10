@@ -60,6 +60,13 @@ ul{
 hr {
     border: 1px dotted #ffffff;
 }
+.f-mystyle{
+    font-size: 12px;
+}
+.scale:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
 /* .pos{
     bottom: -30%;
 } */
