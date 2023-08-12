@@ -88,7 +88,13 @@ hr {
     left: 1rem;
 }
 .pos{
-    
+    left: 1rem;
+    top: 50%;
+    transform: translate(0,-50%);
+    font-size: 12px;
+}
+.a:hover{
+    -webkit-transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
 }
 /* .pos{
     bottom: -30%;
