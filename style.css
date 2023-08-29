@@ -96,6 +96,31 @@ hr {
 .a:hover{
     -webkit-transition: all 0.3s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
 }
+.blur:hover{
+        filter: blur(1px);
+        transition: all 0.5s;
+}
+.grid-product{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    font-size: 0.75rem;
+}
+.custom-border
+{
+    border-radius: 1rem 1rem 1rem 2rem;
+}
+.fal{
+    font-size: 13px;
+    color: #ffffff;
+    background-color: rgb(42, 42, 161);
+    text-align: center;
+    width: 24px;
+    line-height: 24px;
+    border-radius: 10px 0 10px 10px;
+}
+.l-mystyle{
+    line-height: 25px;
+}
 /* .pos{
     bottom: -30%;
 } */
