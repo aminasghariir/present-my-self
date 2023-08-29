@@ -49,66 +49,45 @@
     <main class="col-8 m-auto">
       <div class="row mt-2 gap-2 flex-sm-nowrap">
         <div class="card col-3">
+          <p class="z-1 f-mystyle mb-0 pb-2  ps-4 pe-4 rounded-bottom position-absolute translate-middle-x top-0 start-50 bg-info text-dark">پیشنهاد لحظه ای</p>
           <div
             id="carouselExampleDark"
-            class="h-100 carousel carousel-dark slide"
+            class="h-100 carousel carousel-dark slide position-relative"
           >
-            <div class="carousel-indicators">
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="0"
-                class="active"
-                aria-current="true"
-                aria-label="Slide 1"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="1"
-                aria-label="Slide 2"
-              ></button>
-              <button
-                type="button"
-                data-bs-target="#carouselExampleDark"
-                data-bs-slide-to="2"
-                aria-label="Slide 3"
-              ></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
+            <div class="carousel-inner h-100">
+              <div class="carousel-item active h-100" data-bs-interval="10000">
                 <img
                   src="https://demos.mahdisweb.net/digiland/wp-content/uploads/2017/10/1-300x300.jpg"
                   class="d-block w-100"
                   alt="..."
                 />
                 <div
-                  class="carousel-caption position-absolute bottom-0 d-md-block"
+                  class="carousel-caption custom-pos pt-0 pb-0 d-block"
                 >
                   <p class="fs-6">گوشی blackberi KEYone</p>
                   <p class="fs-6">2,000,000 تومان</p>
                 </div>
               </div>
-              <div class="carousel-item" data-bs-interval="2000">
+              <div class="carousel-item h-100" data-bs-interval="2000">
                 <img
                   src="https://demos.mahdisweb.net/digiland/wp-content/uploads/2019/03/cover-300x300.png"
                   class="d-block w-100"
                   alt="..."
                 />
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption custom-pos pt-0 pb-0 d-block">
                   <p class="fs-6">
                     کاور سیلیکونی مدل SlC مناسب برای گوشی موبایل آیفون 6/6s
                   </p>
                   <p class="fs-6">10,000,000 تومان</p>
                 </div>
               </div>
-              <div class="carousel-item">
+              <div class="carousel-item h-100">
                 <img
                   src="https://demos.mahdisweb.net/digiland/wp-content/uploads/2017/10/11-600x600.jpg"
                   class="d-block w-100"
                   alt="..."
                 />
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption custom-pos pt-0 pb-0 d-block">
                   <p class="fs-6">
                     گوشی موبايل اپل مدل iPhone 8 ظرفيت 64 گيگابايت
                   </p>
@@ -116,36 +95,61 @@
                 </div>
               </div>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleDark"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div>
+              <div class="carousel-indicators me-auto ms-auto mb-1" style="width: 40px;">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleDark"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <button
+                class="carousel-control-prev" style="height: 30px;top: unset;"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next" style="height: 30px;top: unset;"
+                type="button"
+                data-bs-target="#carouselExampleDark"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>  
           </div>
           <!-- <div class="card-body carousel-caption d-md-block">
             <p class="card-text fs-6 text-danger">گوشی blackberi KEYone</p>
             <p class="card-text fs-6 text-danger">2,000,000 تومان</p>
           </div> -->
         </div>
+        <!--------------------------- picture--------------->
         <div
           id="carouselExampleSlidesOnly"
           class="carousel slide col-9 p-0"
@@ -831,9 +835,6 @@
             <p class="mb-1">شورتکد</p>
             <p class="mb-1">پیگیری سفارش</p>
           </div>
-        </div>
-        <div class="row col-8 me-auto ms-auto mt-5">
-          
         </div>
     </footer>
     <!-- bootstrap -->
