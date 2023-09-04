@@ -121,9 +121,8 @@ hr {
 .l-mystyle{
     line-height: 25px;
 }
-.custom-pos{
-    
-
+.curser{
+    cursor: pointer;
 }
 /* .pos{
     bottom: -30%;
