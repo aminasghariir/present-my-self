@@ -124,6 +124,10 @@ hr {
 .curser{
     cursor: pointer;
 }
+.cus-border{
+    border-style: dashed;
+    border-color: #a1a1a1!important;
+}
 /* .pos{
     bottom: -30%;
 } */
